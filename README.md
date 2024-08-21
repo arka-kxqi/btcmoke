@@ -9,8 +9,7 @@ This repository contains the `btcmoke` application, a tool for inspecting and ma
 
 1. **Clone the Repository**
     ```bash
-    git clone git@github.com:rkalis/revoke.cash.git
-    cd revoke.cash
+    cd revoke
     ```
 
 2. **Install Dependencies**
