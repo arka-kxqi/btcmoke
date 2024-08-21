@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Futura Condensed';
+  src: url('/assets/fonts/FuturaCondensedBold.otf');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Condensed';
+  src: url('/assets/fonts/FuturaCondensedBoldOblique.otf');
+  font-weight: bold;
+  font-style: oblique;
+  font-display: swap;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply leading-tight;
+  @apply bg-white dark:bg-black;
+  @apply text-zinc-900 dark:text-zinc-100;
+}
+
+h1 {
+  @apply text-4xl md:text-5xl font-bold tracking-tight m-0;
+}
+
+h2 {
+  @apply text-3xl md:text-4xl font-bold m-0;
+}
+
+h3 {
+  @apply text-2xl font-bold m-0;
+}
+
+h4 {
+  @apply text-xl font-bold m-0;
+}
+
+h5,
+h6 {
+  @apply text-lg font-bold m-0;
+}
+
+p {
+  @apply text-base leading-normal text-zinc-700 dark:text-zinc-300;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+.dev {
+  @apply border border-yellow-500;
+}
+
+#nprogress .bar {
+  @apply bg-black dark:bg-white;
+}
+
+#nprogress .peg {
+  @apply shadow-black dark:shadow-white shadow-lg;
+}
+
+.animate-spin-fast {
+  animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

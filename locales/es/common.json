@@ -1,0 +1,124 @@
+{
+  "article_meta": {
+    "author": "Escrito por <0>{{author}}</0>",
+    "reading_time": "{{readingTime}} min de lectura",
+    "translator": "Traducido por <0>{{translator}}</0>"
+  },
+  "buttons": {
+    "back_to_exploits": "Volver a Hacks",
+    "cancel": "Cancelar",
+    "cancel_signatures": "Cancelar Firmas",
+    "cancelling": "Cancelando",
+    "check": "Comprobar",
+    "check_connected_address": "Comprobar Dirección Conectada",
+    "clear_filters": "Quitar Filtros",
+    "connect": "Conectar Cartera",
+    "connecting": "Conectando",
+    "disconnect": "Desconectar",
+    "disconnecting": "Desconectando",
+    "donate": "Donar",
+    "donating": "Donando",
+    "download": "Descargar",
+    "get_started": "Empezar",
+    "my_allowances": "Mis Autorizaciones",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "report_exploit": "Informar de un Hack",
+    "revoke": "Revocar",
+    "revoking": "Revocando",
+    "send": "Enviar",
+    "sending": "Enviando",
+    "switch_chain": "Cambiar de Red",
+    "switching": "Cambiando",
+    "translate": "Ayúdanos a traducir esta página",
+    "understand": "Entiendo",
+    "update": "Actualizar",
+    "updating": "Actualizando"
+  },
+  "chain_select": {
+    "mainnets": "Redes Principales",
+    "testnets": "Redes de Prueba"
+  },
+  "color_themes": {
+    "dark": "Oscuro",
+    "light": "Claro",
+    "system": "Sistema"
+  },
+  "connect_wallet": {
+    "title": "Conecta Tu Cartera"
+  },
+  "donate": {
+    "gitcoin_grants": "O contribuye a nuestro<0>Grant de Gitcoin</0>",
+    "title": "Donar a Revoke.cash"
+  },
+  "errors": {
+    "404": {
+      "go_home": "Volver a la página principal",
+      "subtitle": "No se pudo encontrar la página que buscas",
+      "suggested_pages": {
+        "extension": {
+          "description": "Descarga la extensión de navegador Revoke.cash.",
+          "title": "Extensión"
+        },
+        "faq": {
+          "description": "Respuestas a todas tus preguntas.",
+          "title": "FAQ"
+        },
+        "title": "¿Estás buscando uno de estos?",
+        "your_allowances": {
+          "description": "Revisa tus propias autorizaciones.",
+          "title": "Tus Autorizaciones"
+        }
+      },
+      "title": "Esta página no existe."
+    },
+    "messages": {
+      "chain_could_not_connect": "No se ha podido conectar a {{chainName}}"
+    }
+  },
+  "footer": {
+    "about": "Sobre nosotros",
+    "blog": "Blog",
+    "brand_assets": "Activos de Marca",
+    "community": "Comunidad",
+    "company": "Empresa",
+    "exploit_checker": "Comprobador de Exploits",
+    "extension": "Extensión del Navegador",
+    "faq": "FAQ",
+    "knowledgebase": "Base de Conocimiento",
+    "learn": "Aprender",
+    "privacy": "Política de privacidad",
+    "product": "Producto",
+    "sponsors": "Patrocinadores",
+    "terms": "Términos",
+    "token_approval_checker": "Comprobador de Autorización de Tokens",
+    "what_are_token_approvals": "¿Qué son las Autorizaciones de Tokens?"
+  },
+  "meta": {
+    "description": "Recupera el control de tu cartera y mantente a salvo revocando las autorizaciones y permisos en {{chainName}} y en 70 redes más.",
+    "title": "Revoca las Aprobaciones de Tus Tokens en Más de 70 Redes"
+  },
+  "misc": {
+    "powered_by": "Desarrollado por <0>{{name}}</0>"
+  },
+  "nav": {
+    "about": "Sobre nosotros",
+    "blog": "Blog",
+    "exploits": "Hacks",
+    "extension": "Extensión",
+    "faq": "FAQ",
+    "learn": "Aprender",
+    "more": "Más",
+    "search": "Buscar Cuentas por Dirección o Dominio"
+  },
+  "toasts": {
+    "clipboard_failed": "❌ No se pudo copiar al portapapeles",
+    "clipboard_success": "✅ Copiado al portapapeles",
+    "donation_sent": "💪 ¡Gracias por la donación!",
+    "revoke_failed": "❌ No se pudo revocar la autorización: {{message}}",
+    "revoke_failed_revert": "❌ No se pudo revocar la autorización: {{message}}. Por favor ponte en contacto con el equipo de este token para resolver este problema.",
+    "transaction_failed": "❌ Transacción fallida: {{message}}",
+    "transaction_submitted": "✅ ¡Transacción enviada!",
+    "update_failed": "❌ Este token no admite la actualización de aprobaciones, por favor revócala en su lugar."
+  }
+}
